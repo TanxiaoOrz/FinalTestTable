@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_bg">
+
+    <com.example.finaltesttable.RowItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="0"
+        app:title_text="姓名"
+        app:hint_text="请输入姓名"
+        android:id="@+id/name"/>
+
+    <com.example.finaltesttable.RowItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="1"
+        app:hint_text="请输入性别"
+        app:title_text="性别"
+        android:id="@+id/sex"/>
+
+    <com.example.finaltesttable.RowItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="1"
+        app:hint_text="请输入有效证件号"
+        app:title_text="有效证件号"
+        android:id="@+id/code"/>
+
+    <com.example.finaltesttable.RowItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="2"
+        app:hint_text="请输入右边"
+        app:title_text="邮编"
+        android:id="@+id/post"/>
+
+    <com.example.finaltesttable.RowItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="1"
+        app:title_text="手机"
+        app:hint_text="请输入手机号"
+        android:id="@+id/phone"/>
+
+    <com.example.finaltesttable.RowItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="2"
+        app:title_text="出生日期"
+        app:hint_text="请填写出生日期"
+        android:id="@+id/birth"/>
+</LinearLayout>
